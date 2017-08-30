@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilletSystem", "BilletSystem\BilletSystem.csproj", "{0212B86B-6694-4799-A25E-D8C5E3C3C225}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilletLibrary", "BilletLibrary\BilletLibrary.csproj", "{D5BDE71B-9710-4319-993B-CC256BAAF458}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BilletLibraryTests", "BilletLibraryTests\BilletLibraryTests.csproj", "{AED2FE9A-BD3A-4B9B-A9F9-26D099E2F560}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{0212B86B-6694-4799-A25E-D8C5E3C3C225}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0212B86B-6694-4799-A25E-D8C5E3C3C225}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0212B86B-6694-4799-A25E-D8C5E3C3C225}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D5BDE71B-9710-4319-993B-CC256BAAF458}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D5BDE71B-9710-4319-993B-CC256BAAF458}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D5BDE71B-9710-4319-993B-CC256BAAF458}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D5BDE71B-9710-4319-993B-CC256BAAF458}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AED2FE9A-BD3A-4B9B-A9F9-26D099E2F560}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AED2FE9A-BD3A-4B9B-A9F9-26D099E2F560}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AED2FE9A-BD3A-4B9B-A9F9-26D099E2F560}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AED2FE9A-BD3A-4B9B-A9F9-26D099E2F560}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
