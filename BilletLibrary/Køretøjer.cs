@@ -11,9 +11,9 @@ namespace BilletLibrary
         
         public string Nummerplade { get; set; }
         public DateTime Dato { get; set; }
+        public bool Brobizz;
 
         public abstract int Pris();
-
 
         public virtual string Køretøj()
         {
@@ -29,6 +29,17 @@ namespace BilletLibrary
             }
             return nummerPlade;
         }
+
+        /*public int HarBrobizz()
+        {
+            int Rabat;
+            if (Brobizz = true)
+            {
+                Rabat = (Pris()/100)*5;
+                return Pris() - Rabat;
+            }
+            return HarBrobizz();
+        }*/
 
 
     }

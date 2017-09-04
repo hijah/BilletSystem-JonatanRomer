@@ -11,9 +11,18 @@ namespace BilletLibrary
 
         public override int Pris()
         {
-            return 240;
+            int Price = 240;
+            int Rabat;
+            if (Brobizz = true)
+            {
+                Rabat = (Pris() / 100) * 5;
+                return Pris() - Rabat;
+            }
+            return Price;
         }
+
         
+
 
         public override string Køretøj()
         {
