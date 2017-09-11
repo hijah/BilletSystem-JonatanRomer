@@ -8,7 +8,10 @@ namespace BilletLibrary
 {
     public class MC : Køretøjer
     {
-
+        /// <summary>
+        /// Brobizz er true, det ville være godt at få en konstructor så du ville kunne bruge den.
+        /// </summary>
+        /// <returns></returns>
         public override int Pris()
         {
             int Price = 125;

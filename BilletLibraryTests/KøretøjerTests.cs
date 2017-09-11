@@ -20,7 +20,10 @@ namespace BilletLibrary.Tests
             bil.Nummerplade = "ABCDEFG";
             bil.nummerpladeLimit();
         }
-
+        /// <summary>
+        /// Mangler Expected Exception, som skrevet nedenom.
+        /// </summary>
+        [ExpectedException(typeof(ArgumentException))]
         [TestMethod()]
         public void nummerpladeTestForMangeBogstaver8()
         {
